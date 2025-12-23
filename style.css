@@ -19,17 +19,24 @@ header,
 
 .container {
   margin: 0 auto;
-  padding: 0 128px;
+  padding: 46px 128px;
 }
 
-header .section {
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.logo {
+  height: 115px;
+  display: flex;
+  align-items: center;
+}
+
 .logo img {
-  height: 75px;
+  height: 100%;
+  width: auto;
 }
 
 nav ul {
